@@ -21,8 +21,7 @@ function readLine() {
 function main() {
   let n = parseInt(readLine());
   let arr = readLine().split(' ');
-  arr = arr.map(Number);
 
-  let ans = arr.reduce((x, y) => x + y);
+  let ans = arr.reduce((sum, y) => sum + parseInt(y), 0);
   console.log(ans);
 }
