@@ -19,7 +19,7 @@ function readLine() {
 }
 
 function main() {
-   let aPoints = 0, bPoints = 0;
+  let aPoints = 0, bPoints = 0;
 
   let a = readLine().split(' ');
   a = a.map(Number);
